@@ -87,6 +87,7 @@ function save() {
     }
     alert("Employee Added Successfully!\n" + employeePayrollData.toString());
 }
+
 const salary = document.querySelector("#salary");
 const output = document.querySelector(".salary-output");
 salary.oninput = function() {
